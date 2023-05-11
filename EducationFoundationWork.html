@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script 
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js">
+    </script>
+    <script
+      src="/Users/codingcobb/Education Foundation Work/Resources/JS/EducationFoundation.js">
+    </script>
+    <link rel="stylesheet" href="/Users/codingcobb/Education Foundation Work/Resources/CSS/EducationFoundation.css">
+    <title>Education Foundation Overview</title>
+  </head>
+  <body style="background-color: #02b4e092">
+    <div>
+      <style>
+        body {
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 20px;
+        }
+        
+        #myBtn {
+          display: none;
+          position: fixed;
+          bottom: 20px;
+          right: 30px;
+          z-index: 99;
+          font-size: 18px;
+          border: none;
+          outline: none;
+          background-color: cornflowerblue;
+          color: white;
+          cursor: pointer;
+          padding: 15px;
+          border-radius: 4px;
+        }
+        
+        #myBtn:hover {
+          background-color: #555;
+        }
+      </style>
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+      <script>
+      // Get the button
+      let mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+      </script>
+    </div>
+    <h1>
+      Overview of Changes from Parker's Intership
+    </h1>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    <div class = "body-text">
+      <div id = "Biggest Changes">
+        <h2><span class = "indent">...</span>Overview of Work Completed</h2>
+        <ul>
+          <li><a href="#Site Wide Changes">Site Wide Changes</a></li>
+            <ul>
+              <li><a href="#Website Footer">Footer</a></li>
+              <li><a href="#Site Menu">Site Menu</a></li>
+              <li><a href="#Allignment">Allignment</a></li>
+              <li><a href="#Photo Orientation and Replacement">Photo Orientation and Replacement</a></li>
+            </ul>
+          <li><a href="#Main Page">Main Page</a></li>
+          <li><a href="#Donor Spotlight">Donor Spotlight</a></li>
+          <li><a href="#Reunions">Reunions</a></li>
+        </ul>
+        <h2><span class = "indent">...</span>Internship <a href="#Internship Info And Resources">Info And Resources</a></h2>
+      </div>
+      <br>
+      <br>
+      <h1 id = "Site Wide Changes">
+        Site Wide Changes
+      </h1>
+      <div id = "Website Footer">
+        <h2>
+          <span class = "indent">...</span>Website Footer
+        </h2>
+        <p>
+          The footer of the website underwent several changes to call out the most important features of the site. The new footer features interactive buttons, that turn red when the user hovers over them. The format was also modified to accentuate the foundation and its various social platforms.   
+        </p>
+        <br>
+        <h3><span class = "indent">...</span>Before <span class = "indent">................................................</span> After</h3>
+        <div class='container'>
+          <div class='img background-img'></div>
+          <div class='img foreground-img'></div>
+          <input type="range" min="1" max="100" value="50" class="slider" name='slider' id="slider">
+          <div class='slider-button'></div>
+        </div>
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <div id = "Site Menu">
+        <h2>
+          <span class = "indent">...</span>Site Menu
+        </h2>
+        <img class = "small right-spacer" src="https://i.imgur.com/60Z6CAo.png" alt="">
+        <img class = "small Img-border" src="https://i.imgur.com/95H6Xi0.png" alt="">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>
+          The website's old search button menu function was deleted as it was obsolete for website usage and did not return accurate results. By replacing this with a donate button, attention is called to the most important thing users can do viewing the site: donate to the foundation.   
+        </p>
+      </div>
+      <br>
+      <br>
+      <div id = "Allignment">
+        <h2>
+          <span class = "indent">...</span>Allignment
+        </h2>
+        <img class = "med-two right-spacer" src= "https://i.imgur.com/HJzOdJu.png" alt="Old Screen">
+        <img class = "med-two" src="https://i.imgur.com/XqtpmD4.png" alt="New Screen">
+        <br>
+        <br>
+        <p>
+          I changed the alignment of elements to draw attention back to the text and create a flow between the content. All elements are now centered or right aligned rather than shifting back and forth at random.  
+        </p>
+      </div>
+      <br>
+      <br>
+      <div id = "Photo Orientation and Replacement"> 
+        <h2>
+          <span class = "indent">...</span>Photo Orientation and Replacement
+        </h2>
+        <img class = "med-two right-spacer" src= "https://i.imgur.com/1XzPwJc.png" alt="Old Screen">
+        <img class = "med-two" src="https://i.imgur.com/1nsfQyy.png" alt="New Screen">
+        <br>
+        <br>
+        <p>
+          I changed the direction of the photos to face the text because of the psychology of design. When users view a page, they tend to follow the eye line of the subject in the photo.   
+        </p>
+      </div>
+      <h1>
+       Single Page Changes
+      </h1>
+      <br>
+      <br>
+      <div id = "Main Page">
+        <h2>
+          <span class = "indent">...</span>Changes to the Main Page
+        </h2>
+        <img class = "med  right-spacer" src="https://i.imgur.com/ypAPmbr.png" alt="Old Screen">
+        <img class = "med" src="https://i.imgur.com/Sy5VYMp.png" alt="New Screen">
+        <br>
+        <br>
+        <p>
+          The website's old search button menu function was deleted as it was obsolete for website usage and did not return accurate results. By replacing this with a donate button, attention is called to the most important thing users can do viewing the site: donate to the foundation.   
+        </p>
+        <br>
+        <br>
+      </div>
+
+      <div id = "Donor Spotlight">
+        <h2>
+          <span class = "indent">...</span>Donor Spotlight
+        </h2>
+        <img class = "med-two right-spacer" src=https://i.imgur.com/2LOjSmB.png" alt="Old Screen">
+        <img class = "med-two" src="https://i.imgur.com/sunExVK.png" alt="New Screen">
+        <br>
+        <br>
+        <p>
+          The new breakdown of the donor page draws attention to the donors themselves and the opportunities they provide. This breakdown brings renewed clarity of elements and allows for a better user experience. It also adds significance to the donors as they now have an individual page on the site to call attention to them.  
+        </p>
+      </div>
+      <br>
+      <br>
+      <div id = "Reunions">
+        <h2>
+          <span class = "indent">...</span>Reunions
+        </h2>
+        <img class = "med-two right-spacer" src=https://i.imgur.com/DMF9r9t.png" alt="Old Screen">
+        <img class = "med-two" src="https://i.imgur.com/pL2Bxk2.png" alt="New Screen">
+        <br>
+        <br>
+        <p>
+          I replaced the old photos with their updated versions. I also replaced the broken links that occurred in the district's changes to school sites. 
+        </p>
+      </div>
+      <br>
+      <br>
+    </div>
+    <h1 id = "Internship Info And Resources">Internship Info and Resources</h1>
+    <div class = "body-text">
+      <p>Overview of Code implementation on site and it's meaning: <a href="https://docs.google.com/document/d/1HfenIHtFgGChkW2R4KuWR7_FkcOpKw1hy4OdH7vm3VY/edit?usp=sharing" target="_blank">Click Me!</a></p>
+      <p>Spreadsheet of Hours: <a href="https://docs.google.com/spreadsheets/d/1qDxWVhUr8mY7_ZPy8FlNk30Ndywjn4DU9E4l5Joqsgg/edit?usp=sharing" target="_blank">Click Me!</a></p>
+    </div>
+    <br>
+    <br>
+  </body>
+</html>
